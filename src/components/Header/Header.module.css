@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  position: relative;
+  color: rgb(201, 201, 216);
+
+  height: 5rem;
+  width: 100%;
+}
+.heading {
+  display: flex;
+  position: absolute;
+  right: 0;
+  margin-top: 2rem;
+  margin-right: 2rem;
+  list-style: none;
+  align-items: right;
+  color: aliceblue;
+  gap: 2rem;
+  align-self: right;
+}
+.heading > li :hover {
+  cursor: pointer;
+  color: rgb(9, 74, 88);
+}
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+  .heading {
+    gap: 0.5rem;
+    font-size: 8px;
+    margin-top: 1rem;
+    margin-right: 0.6rem;
+  }
+}

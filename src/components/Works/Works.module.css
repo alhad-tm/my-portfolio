@@ -1,0 +1,38 @@
+.container {
+  margin-top: 1rem;
+}
+
+.mySwiper {
+  width: 50%;
+  height: 20px;
+}
+.heading {
+  font-size: 3rem;
+  color: rgb(172, 172, 197);
+  margin-left: 28rem;
+  margin-bottom: 3rem;
+}
+.projectimages {
+  width: 320px;
+  height: 200px;
+}
+.externallink {
+  font-size: 20px;
+}
+@media screen and (max-width: 768px) {
+  .heading {
+    margin-left: 6rem;
+    font-size: 1.3rem;
+  }
+  .projectimages {
+    width: 160px;
+    height: 100px;
+    margin-left: -2.8rem;
+  }
+  .mySwiper {
+    width: 180%;
+  }
+  .externallink {
+    font-size: 15px;
+  }
+}

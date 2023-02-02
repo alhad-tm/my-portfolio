@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  color: rgb(229, 245, 245);
+  margin-top: 8rem;
+  gap: 2rem;
+}
+.heading {
+  font-size: 3rem;
+  color: rgb(172, 172, 197);
+  margin: auto;
+}
+.content {
+  max-width: fit-content;
+  color: rgb(224, 216, 216);
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .heading {
+    font-size: 1.3rem;
+  }
+  .content {
+    font-size: 0.5rem;
+    margin-top:-1rem;
+  }
+}

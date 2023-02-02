@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+  background-color: rgb(14, 14, 14);
+  height: 5rem;
+}
+.socialicons {
+  padding-top: 1rem;
+  display: flex;
+  margin: auto;
+  gap: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(222, 228, 232);
+}
+.link {
+  font-size: 30px;
+}
+
+.copy {
+  margin: auto;
+  color: rgb(100, 104, 102);
+}
+@media screen and (max-width: 768px) {
+  .container {
+    height: 4rem;
+  }
+  .copy {
+    font-size: 8px;
+  }
+  .link {
+    font-size: 20px;
+  }
+}

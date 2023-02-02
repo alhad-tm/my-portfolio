@@ -1,0 +1,83 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+h1 {
+  color: aliceblue;
+}
+.heading {
+  font-size: 3rem;
+  color: rgb(172, 172, 197);
+  margin: auto;
+}
+
+.boxcontainer {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+  margin-top: 1.5rem;
+}
+.boxes {
+  display: flex;
+  flex-direction: column;
+}
+.boxes > span {
+  color: aliceblue;
+  font-size: 1.7rem;
+}
+
+.imgst {
+  height: 280px;
+  width: 280px;
+}
+.imgr {
+  height: 230px;
+  width: 280px;
+  border-radius: 35%;
+  margin-bottom: 1.8rem;
+}
+.servicecontent {
+  color: rgb(224, 216, 216);
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  color: rgb(127, 114, 114);
+}
+.reactweb {
+  margin-bottom: 0.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .heading {
+    font-size: 1.3rem;
+    margin-top: 0.4rem;
+    margin-bottom: -1rem;
+  }
+  .boxcontainer{
+    margin-bottom: -1rem;
+    margin-top: 1.1rem;
+  }
+  .boxes > span {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    font-style: italic;
+  }
+  .imgst {
+    width: 100px;
+    height: 100px;
+  }
+  .imgr {
+    width: 100px;
+    height: 80px;
+    margin-top: -0.6rem;
+  }
+  .reactweb {
+    margin-top:1.4rem;
+  }
+  .servicecontent {
+    font-size: 0.5rem;
+    color: rgb(224, 216, 216);
+  }
+}

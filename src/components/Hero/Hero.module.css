@@ -1,0 +1,109 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  color: rgb(227, 227, 235);
+  height: 300px;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  color: rgb(255, 255, 255);
+  flex: 1;
+  margin-top: 6rem;
+  margin-left: 5rem;
+}
+.left > :nth-child(1) {
+  font-size: 30px;
+  font-family: monospace;
+}
+
+.left > :nth-child(2) {
+  font-size: 80px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  /* font-weight: bold; */
+}
+
+.right {
+  flex: 1;
+  margin-top: 3rem;
+  margin-left: 1rem;
+}
+.typing {
+  font-size: 50px;
+ 
+  color: rgb(117, 117, 203);
+}
+
+.img {
+  border-radius: 50%;
+  height: 330px;
+  width: 350px;
+  margin-left: 7rem;
+}
+.resume {
+  display: flex;
+  text-decoration: none;
+  color: rgb(225, 209, 209);
+  background-color: rgb(94, 88, 88);
+  width: 130px;
+  height: 25px;
+  padding: 10px 10px;
+  border-radius: 15px;
+  font-size: 13px;
+  margin-top: 1rem;
+}
+.file{
+    font-size: 25px;
+    }
+
+@media screen and (max-width: 768px) {
+    .container {
+        display: flex;
+        height: 60px;
+        width: 180px;
+        gap: 3.4rem;
+      }
+      .left { 
+        display: flex;
+        flex-direction: column;
+        color: rgb(255, 255, 255);
+        flex: 1;
+        margin-top: 1rem;
+        margin-right: -7rem;
+        
+        /* width: 90%; */
+       
+      }
+  .right {
+    flex: 1;
+    margin-top: 1rem;
+   
+  }
+
+  .left > :nth-child(1) {
+    font-size: 16px;
+  }
+  .left > :nth-child(2) {
+    font-size: 20px;
+  }
+  .typing {
+    font-size: 14px;
+  }
+  .img {
+    width: 100px;
+    height: 100px;
+   margin-right: -2rem;
+  }
+  .resume{
+    height: 10px;
+    width: 100px;
+    font-size: 10px;
+    padding: 5px;
+    gap: 2px;
+    margin-top: 1rem;
+  }
+  .file{
+  font-size: 12px;
+  }
+}
