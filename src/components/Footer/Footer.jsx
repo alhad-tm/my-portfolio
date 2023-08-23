@@ -11,11 +11,10 @@ const Footer = () => {
       <div className={css.socialicons}>
         <a
           className={css.link}
-          href="https://www.linkedin.com/in/al-had-t-m-26250223a/"
-        >
+          href="https://www.linkedin.com/in/al-had-t-m-26250223a/" target="blank">
           <FaLinkedin />
         </a>
-        <a className={css.link} href="https://github.com/alhad-tm">
+        <a className={css.link} href="https://github.com/alhad-tm" target="blank">
           <BsGithub />
         </a>
         <a className={css.link} href=" ">

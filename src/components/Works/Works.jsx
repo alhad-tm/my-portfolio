@@ -24,6 +24,7 @@ const Works = () => {
         centeredSlides={true}
         slidesPerView={5}
         loop={true}
+        speed={2400}
         coverflowEffect={{
           rotate: 0,
           stretch: -130,
@@ -38,7 +39,7 @@ const Works = () => {
         <div className={css.box}>
           <SwiperSlide>
             <img src={fitclub} alt="" className={css.projectimages} />{" "}
-            <a href="https://fitclub-app-37f.pages.dev/">
+            <a href="https://fitclub-app-37f.pages.dev/" target="blank">
               <GoLinkExternal className={css.externallink} />
             </a>
           </SwiperSlide>
@@ -49,8 +50,8 @@ const Works = () => {
           <SwiperSlide>
             {" "}
             <img src={netflix} alt="" className={css.projectimages} />
-            <a href="https://netflixclone-al.netlify.app/">
-              <GoLinkExternal className={css.externallink} />
+            <a href="https://netflixclone-al.netlify.app/" target="blank" >
+              <GoLinkExternal className={css.externallink} /> 
             </a>
           </SwiperSlide>
           <SwiperSlide>
@@ -60,7 +61,7 @@ const Works = () => {
           <SwiperSlide>
             {" "}
             <img src={skin} alt="" className={css.projectimages} />
-            <a href="https://skincare01.netlify.app/">
+            <a href="https://skincare01.netlify.app/" target="blank">
               <GoLinkExternal className={css.externallink} />
             </a>
           </SwiperSlide>

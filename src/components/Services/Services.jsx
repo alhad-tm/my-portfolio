@@ -25,7 +25,7 @@ const Services = () => {
       <div className={css.servicecontent}>
         Currently, I am working on Static Web Page development and React Web
         development. Please check my official GitHub page{" "}
-        <a href="https://github.com/alhad-tm">
+        <a href="https://github.com/alhad-tm" target="blank">
           <GoLinkExternal color="blue" />
         </a>{" "}
         to know more about my works. Given below are some projects that I had
