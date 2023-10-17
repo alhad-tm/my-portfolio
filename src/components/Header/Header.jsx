@@ -28,7 +28,7 @@ const Header = () => {
         </li>
         <li>
           <Link to="contact" spy={true} smooth={true}>
-            Contact
+            Contact me
           </Link>
         </li>
       </div>
