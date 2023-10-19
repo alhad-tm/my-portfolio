@@ -18,7 +18,7 @@ const Works = () => {
   return (
     <div className={css.container} id="works">
       <div className={css.heading}>Previous works</div>
-      <Swiper
+      <Swiper className={css.swiperdiv}
         effect={"coverflow"}
         grabCursor={true}
         centeredSlides={true}
@@ -34,7 +34,7 @@ const Works = () => {
         }}
         pagination={{ clickable: true }}
         modules={[EffectCoverflow, Pagination]}
-        className="mySwiper"
+      
       >
         <div className={css.box}>
           <SwiperSlide>

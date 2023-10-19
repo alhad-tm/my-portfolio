@@ -1,10 +1,12 @@
 .container {
   margin-top: 1rem;
+  padding: 6% 6%;
 }
 
-.mySwiper {
-  width: 50%;
-  height: 20px;
+.swiperdiv{
+  width: 100%;
+  align-items: center;
+
 }
 .heading {
   font-size: 3rem;
