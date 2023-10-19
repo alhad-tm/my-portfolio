@@ -24,9 +24,9 @@ const Hero = () => {
           Download resume <AiOutlineFileText className={css.file} />
         </a>
       </div>
-      <div className={css.right}>
+      {/* <div className={css.right}>
         <img className={css.img} src={code} alt="" />
-      </div>
+      </div> */}
     </div>
   );
 };
