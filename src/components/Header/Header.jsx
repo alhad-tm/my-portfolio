@@ -1,10 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import css from "./Header.module.css";
 import { Link } from "react-scroll";
 
 const Header = () => {
+  const [state,setState]=useState(false)
+  const scrollDown = () => {
+    window.scrollY > 100 ? setState(true) : setState(false);
+  };
+  window.addEventListener("scroll", scrollDown);
   return (
-    <div className={css.container} id="header">
+    <div className={state ? css.container1 : css.container} id="header">
       <div className={css.heading}>
         <li>
           <Link to="home" spy={true} smooth={true}>

@@ -32,14 +32,15 @@
   flex-direction: column;
   color: rgb(120, 114, 114);
 width: 100%;
-padding: 0 10%;
+padding-left: 13%;
 
 
  
 }
 .left > :nth-child(1) {
   font-size: 30px;
-  font-family: sans-serif;
+  font-family: nunito;
+  font-weight: 600;
 }
 
 .left > :nth-child(2) {
@@ -90,15 +91,16 @@ color:  rgb(171 175 178);
 @media screen and (max-width: 768px) {
   .container {
     display: flex;
-    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+   
   }
   .left {
     display: flex;
     flex-direction: column;
-    color: rgb(255, 255, 255);
-    margin-bottom: 12rem;
-    margin-left: 2rem;
-    width: 70%;
+    width: 100%;
+    gap: 0.4rem;
+    
   }
 
   .left > :nth-child(1) {
