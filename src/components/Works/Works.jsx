@@ -22,43 +22,43 @@ const Works = () => {
         effect={"coverflow"}
         grabCursor={true}
         centeredSlides={true}
-        slidesPerView={5}
+        slidesPerView={3}
         loop={true}
         speed={2400}
         coverflowEffect={{
           rotate: 0,
-          stretch: -130,
-          depth: 220,
-          modifier: 1,
-          slideShadows: false,
+          stretch: 0,
+          depth: 200,
+          modifier: 1, // 2,3
+          slideShadows : false,
         }}
         pagination={{ clickable: true }}
         modules={[EffectCoverflow, Pagination]}
       
       >
         <div className={css.box}>
-          <SwiperSlide>
+          <SwiperSlide className={css.sslide}>
             <img src={fitclub} alt="" className={css.projectimages} />{" "}
             <a href="https://fitclub-app-37f.pages.dev/" target="blank">
               <GoLinkExternal className={css.externallink} />
             </a>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className={css.sslide}>
             {" "}
             <img src={foodmain} alt="" className={css.projectimages} />
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className={css.sslide}>
             {" "}
             <img src={netflix} alt="" className={css.projectimages} />
             <a href="https://netflixclone-al.netlify.app/" target="blank" >
               <GoLinkExternal className={css.externallink} /> 
             </a>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className={css.sslide}>
             {" "}
             <img src={olx} alt="" className={css.projectimages} />
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className={css.sslide}>
             {" "}
             <img src={skin} alt="" className={css.projectimages} />
             <a href="https://skincare01.netlify.app/" target="blank">

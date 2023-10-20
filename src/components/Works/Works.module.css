@@ -1,6 +1,9 @@
 .container {
-  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 6% 6%;
+  gap: 2rem;
 }
 
 .swiperdiv{
@@ -11,8 +14,7 @@
 .heading {
   font-size: 3rem;
   color: rgb(172, 172, 197);
-  margin-left: 28rem;
-  margin-bottom: 3rem;
+
 }
 .projectimages {
   width: 320px;
@@ -20,6 +22,12 @@
 }
 .externallink {
   font-size: 20px;
+}
+.sslide{
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+ 
 }
 @media screen and (max-width: 768px) {
   .heading {
