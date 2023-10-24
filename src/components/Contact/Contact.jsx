@@ -45,7 +45,7 @@ const Contact = () => {
       </div>
 
       <div className={css.right}>
-        <form action="" ref={form} onSubmit={sendEmail}>
+        <form className={css.formdiv} action="" ref={form} onSubmit={sendEmail}>
           <input
             type="text"
             name="to_name"
