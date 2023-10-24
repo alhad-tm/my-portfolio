@@ -1,7 +1,7 @@
 .container {
   display: flex;
   flex-direction: column;
-  background-color: rgb(20, 19, 19);
+  background-color: rgb(8,8,8);
   align-items: center;
   justify-content: center;
  padding: 1% 0;
@@ -21,7 +21,7 @@ a {
 }
 
 .copy {
-  margin: auto;
+  /* margin: auto; */
   color: rgb(100, 104, 102);
  
 } 
@@ -30,12 +30,12 @@ a {
 }
 @media screen and (max-width: 768px) {
   .container {
-    height: 4rem;
+    height: 3.2rem;
   }
-  .copy {
+  .copy >span{
     font-size: 8px;
   }
   .link {
-    font-size: 20px;
+    font-size: 16px;
   }
 }

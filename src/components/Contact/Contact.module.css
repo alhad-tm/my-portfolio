@@ -1,9 +1,10 @@
 .container {
   display: flex;
   min-height: 100vh;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding: 6% 6%;
+
 }
 .left {
   display: flex;
@@ -13,7 +14,13 @@
 }
 .right {
   display: flex;
+  width: 50%;
 
+}
+.formdiv{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 .mail {
   display: flex;
@@ -23,7 +30,7 @@
 
 form input,
 form textarea {
-  width: 86%;
+  width: 96%;
   background-color: rgb(0, 0, 0);
   color: rgb(233, 223, 223);
   border: 1px solid rgb(87, 86, 86);
@@ -43,6 +50,7 @@ margin-top: 2rem;
   font-weight: bold;
   border: 1px solid  rgb(6, 99, 6);
   margin-top: 1rem;
+  width: 76px;
 }
 .btn:hover {
   cursor: pointer;
@@ -55,6 +63,11 @@ margin-top: 2rem;
   .container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+  }
+  .left{
+    width: 100%;
   }
   form input,
   form textarea {
@@ -67,10 +80,12 @@ margin-top: 2rem;
     padding: 10px;
     margin: 15px 5px;
   }
-  
+  .right{
+    width: 100%;
+  }
   .btn {
     padding: 6px 11px;
-    font-weight: bold;
+    font-weight: normal;
     color: rgb(255, 255, 255);
     background-color:  rgb(6, 99, 6);
     margin-left: 0.7rem;

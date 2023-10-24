@@ -55,6 +55,9 @@ h1 {
 }
 
 @media screen and (max-width: 768px) {
+  .container{
+    gap: 0.6rem;
+  }
   .heading {
     font-size: 1.3rem;
     margin-top: 0.4rem;

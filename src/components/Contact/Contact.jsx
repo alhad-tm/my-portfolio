@@ -7,10 +7,11 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const Contact = () => {
-  const notify = () => toast.success("Sent Successfully");
+  // const notify = () => toast.success("Sent Successfully");
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
+    toast.success("Sent Successfully")
 
     emailjs
       .sendForm(
@@ -65,7 +66,7 @@ const Contact = () => {
             required="true"
             placeholder="Your message"
           />
-          <button onClick={notify} className={css.btn}>
+          <button  className={css.btn}>
             Submit
           </button>
           <ToastContainer autoClose={600} position={"bottom-right"} />
