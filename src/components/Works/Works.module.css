@@ -27,17 +27,18 @@
   display: flex;
   flex-direction: column;
   gap: 0.4rem;
+  align-items: flex-start;
  
 }
 @media screen and (max-width: 768px) {
   .heading {
-    margin-left: 6rem;
+  
     font-size: 1.3rem;
   }
   .projectimages {
     width: 160px;
     height: 100px;
-    margin-left: -2.8rem;
+    margin-left: -2rem;
   }
   .mySwiper {
     width: 180%;
