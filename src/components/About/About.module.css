@@ -26,9 +26,9 @@
 
 
 @media screen and (max-width: 768px) {
-  .container{
+  /* .container{
     min-height: auto;
-  }
+  } */
   .heading {
     font-size: 1.3rem;
    

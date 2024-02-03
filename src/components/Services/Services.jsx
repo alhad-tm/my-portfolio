@@ -20,7 +20,7 @@ const Services = () => {
         <motion.div
              initial={{ opacity: 0, x: -40 }}
              whileInView={{ opacity: 1, x: 0 }}
-             transition={{ duration: 1}}
+             transition={{ duration: 1,delay:0.5}} 
         className={css.boxes}>
           <span>Static web page</span>
           <img src={staticweb} className={css.imgst} alt="" />
@@ -29,7 +29,7 @@ const Services = () => {
         <motion.div className={css.boxes}
         initial={{ opacity: 0, x: 40 }}
         whileInView={{ opacity: 1, x: 0 }}
-        transition={{ duration: 1}}>
+        transition={{ duration: 1,delay:0.5}}>
           <span className={css.reactweb}>React web app</span>
           <br />
           <img src={react} className={css.imgr} alt="" />
@@ -38,7 +38,7 @@ const Services = () => {
       <motion.div className={css.servicecontent}
       initial={{ opacity: 0, y: 10 }}
       whileInView={{ opacity: 1, y: 0 }}
-      transition={{ duration: 2}}>
+      transition={{ duration: 1,delay:2}}>
         Currently, I am working on Static Web Page development and React Web
         development. Please check my official GitHub page{" "}
         <a href="https://github.com/alhad-tm" target="blank">

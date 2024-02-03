@@ -2,7 +2,7 @@ import React from "react";
 import Typewriter from "typewriter-effect";
 import css from "./Hero.module.css";
 import code from "../../assets/coder1.jpg";
-import resume from "../../assets/alhad01.pdf";
+import resume from "../../assets/alhad-profile.pdf"; 
 import { AiOutlineFileText } from "react-icons/ai";
 
 const Hero = () => {
