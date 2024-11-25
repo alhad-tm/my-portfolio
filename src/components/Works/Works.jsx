@@ -14,10 +14,17 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import "swiper/css/autoplay";
 import { GoLinkExternal } from "react-icons/go";
+import workslist from "../../api/workslist.json"
 
 const Works = () => {
   return (
     <div className={css.container} id="works">
+    
+    
+   
+
+ 
+  
       <div className={css.heading}>Previous works</div>
       <Swiper className={css.swiperdiv}
         effect={"coverflow"}
@@ -40,8 +47,24 @@ const Works = () => {
         modules={[EffectCoverflow, Pagination,Autoplay]}
       
       >
-        <div className={css.box}>
-          <SwiperSlide className={css.sslide}>
+
+  
+  
+  
+    <div className={css.box}>
+   
+  {workslist.map((myworks,index)=>( 
+     <SwiperSlide className={css.sslide}>
+          <img src={myworks.image} className={css.projectimages}/>
+          {myworks.link?   <a href={myworks?.link} target="blank">
+              <GoLinkExternal className={css.externallink} />
+            </a>
+          :""  }
+         
+          </SwiperSlide>
+  ))} 
+  
+          {/* <SwiperSlide className={css.sslide}>
             <img src={fitclub} alt="" className={css.projectimages} />{" "}
             <a href="https://fitclub-app-37f.pages.dev/" target="blank">
               <GoLinkExternal className={css.externallink} />
@@ -68,7 +91,7 @@ const Works = () => {
             <a href="https://skincare01.netlify.app/" target="blank">
               <GoLinkExternal className={css.externallink} />
             </a>
-          </SwiperSlide>
+          </SwiperSlide> */}
         </div>
         <br />
       </Swiper>
