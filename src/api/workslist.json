@@ -1,58 +1,66 @@
-
 [
-    {"id":0,
-      "image":"/assets/fitclubmain.png",
-    "link":"https://fitclub-app-37f.pages.dev/" 
-    },
-    {"id":1,
-      "image":"/assets/foodappmains.png",
-    "link":"" 
-    },
-    {"id":2,
-      "image":"/assets/netflixmain.png",
-    "link":"https://netflixclone-al.netlify.app/"  
-    },
-    {"id":3,
-      "image":"/assets/olxmain.jpg",
-    "link":"" 
-    },
-    {"id":4,
-      "image":"/assets/skincaremain.png",
-    "link":"https://skincare01.netlify.app/" 
-    },
-    {"id":5,
-      "image":"/assets/batcavemain-s.png",
-    "link":"https://batcave-club.netlify.app" 
-    },
-    {"id":6,
-      "image":"/assets/green-castle-s.png",
-    "link":"https://greenc.netlify.app/" 
-    },
-    {"id":7,
-      "image":"/assets/invicious-base-s.png",
-    "link":"https://invicious.netlify.app/" 
-    },
-    {"id":8,
-      "image":"/assets/invicious-consultancy-version1-s.png",
-    "link":"https://invicioustech.netlify.app/" 
-    },
-    {"id":9,
-      "image":"/assets/invicious-main-s.png",
-    "link":"https://invicious-main.netlify.app/" 
-    },
-    {"id":10,
-      "image":"/assets/inviciousconsultancy-s.png",
-    "link":"https://invc.netlify.app/" 
-    },
-    {"id":11,
-      "image":"/assets/tributor-s.png",
-    "link":"https://tributor.netlify.app/" 
-    },
-    {"id":11,
-      "image":"/assets/batcave-version1-s.png",
-    "link":"https://batcave1.netlify.app/" 
-    }
-  
-    
+  {
+    "id": 0,
+    "image": "/assets/fitclubmain.png",
+    "link": "https://fitclub-app-37f.pages.dev/"
+  },
+  {
+    "id": 1,
+    "image": "/assets/batcavemain-s.png",
+    "link": "https://batcave-club.netlify.app"
+  },
+  { "id": 2, "image": "/assets/foodappmains.png", "link": "" },
+  {
+    "id": 3,
+    "image": "/assets/netflixmain.png",
+    "link": "https://netflixclone-al.netlify.app/"
+  },
+  {
+    "id": 4,
+    "image": "/assets/inviciousconsultancy-s.png",
+    "link": "https://invc.netlify.app/"
+  },
+  { "id": 5, "image": "/assets/olxmain.jpg", "link": "" },
+  {
+    "id": 6,
+    "image": "/assets/maaya-s.png",
+    "link": "https://maaya1.netlify.app/"
+  },
 
+  {
+    "id": 7,
+    "image": "/assets/green-castle-s.png",
+    "link": "https://greenc.netlify.app/"
+  },
+  {
+    "id": 8,
+    "image": "/assets/invicious-base-s.png",
+    "link": "https://invicious.netlify.app/"
+  },
+  {
+    "id": 9,
+    "image": "/assets/invicious-consultancy-version1-s.png",
+    "link": "https://invicioustech.netlify.app/"
+  },
+  {
+    "id": 10,
+    "image": "/assets/invicious-main-s.png",
+    "link": "https://invicious-main.netlify.app/"
+  },
+
+  {
+    "id": 11,
+    "image": "/assets/tributor-s.png",
+    "link": "https://tributor.netlify.app/"
+  },
+  {
+    "id": 12,
+    "image": "/assets/batcave-version1-s.png",
+    "link": "https://batcave1.netlify.app/"
+  },
+  {
+    "id": 13,
+    "image": "/assets/skincaremain.png",
+    "link": "https://skincare01.netlify.app/"
+  }
 ]
