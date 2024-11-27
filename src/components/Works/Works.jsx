@@ -23,6 +23,7 @@ const Works = () => {
         loop={true}
         speed={2400}
         autoplay={{ delay: 2000 }}
+        
         // coverflowEffect={{
         //   rotate: 0,
         //   stretch: 0,
