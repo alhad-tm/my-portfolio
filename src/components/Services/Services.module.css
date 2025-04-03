@@ -60,7 +60,7 @@ h1 {
     gap: 0.6rem;
   }
   .heading {
-    font-size: 1.3rem;
+    font-size: 28px;
     margin-top: 0.4rem;
     margin-bottom: -1rem;
   }
@@ -71,7 +71,7 @@ h1 {
     margin-top: 2.8rem;
   }
   .boxes > span {
-    font-size: 1rem;
+    font-size: 16px;
     margin-bottom: 0.5rem;
     font-style: italic;
   }
@@ -88,7 +88,7 @@ h1 {
     margin-top:1.rem;
   }
   .servicecontent {
-    font-size: 0.7rem;
+    font-size: 15px;
     color: rgb(224, 216, 216);
   }
 }

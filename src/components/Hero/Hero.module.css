@@ -100,17 +100,18 @@ color:  rgb(171 175 178);
     flex-direction: column;
     width: 100%;
     gap: 0.4rem;
+    padding-left: 8%;
     
   }
 
   .left > :nth-child(1) {
-    font-size: 20px;
+    font-size: 23px;
   }
   .left > :nth-child(2) {
-    font-size: 35px;
+    font-size: 41px;
   }
   .typing {
-    font-size: 20px;
+    font-size: 24px;
   }
   .right {
     width: 70%;
